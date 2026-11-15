@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "locks": [
+    {
+      "id": "FIX-001",
+      "type": "bug",
+      "title": "A charge of zero or less crashed the ledger on refunds",
+      "reason": "A charge of zero or less crashed the ledger on refunds",
+      "file": "payments.py",
+      "snippet": [
+        "    if amount <= 0:",
+        "        raise ValueError(\"amount must be positive\")"
+      ],
+      "owner": "Ravi (demo teammate)",
+      "issue": null,
+      "test": null,
+      "date": "2026-11-15"
+    }
+  ]
+}
