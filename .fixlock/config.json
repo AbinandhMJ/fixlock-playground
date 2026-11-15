@@ -1,0 +1,11 @@
+{
+  "project": "fixlock-playground",
+  "team": [
+    { "name": "Abi", "github": "AbinandhMJ", "emails": ["AbinandhMJ@users.noreply.github.com"], "role": "developer" },
+    { "name": "Ravi (demo teammate)", "github": null, "emails": ["ravi@example.com"], "role": "lead" }
+  ],
+  "policies": {
+    "bug": { "onEdit": "ask", "approval": "owner" },
+    "feature": { "onEdit": "warn", "approval": "owner-or-lead" }
+  }
+}
